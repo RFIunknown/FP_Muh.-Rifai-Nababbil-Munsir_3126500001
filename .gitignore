@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Datasets and training artifacts
+dataset/
+runs/
+runs.zip
+*.pt
+# Keep best.pt: the best model is part of the submission
+!best.pt
+*.onnx
+*.engine
+*.torchscript
+
+# Environment variables & secrets (never commit the API key)
+.env
+.env.*
+*.local
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
